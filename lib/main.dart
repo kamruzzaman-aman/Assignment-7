@@ -24,21 +24,21 @@ class ProductList extends StatefulWidget {
 
 class _ProductListState extends State<ProductList> {
   List<Map<String, dynamic>> productList = [
-    {'productName': 'Product 1', 'productPrice': '10'},
-    {'productName': 'Product 2', 'productPrice': '25'},
-    {'productName': 'Product 3', 'productPrice': '15'},
-    {'productName': 'Product 4', 'productPrice': '20'},
-    {'productName': 'Product 5', 'productPrice': '22'},
-    {'productName': 'Product 6', 'productPrice': '18'},
-    {'productName': 'Product 7', 'productPrice': '25'},
-    {'productName': 'Product 8', 'productPrice': '30'},
-    {'productName': 'Product 9', 'productPrice': '40'},
-    {'productName': 'Product 10', 'productPrice': '35'},
-    {'productName': 'Product 11', 'productPrice': '15'},
-    {'productName': 'Product 12', 'productPrice': '15'},
-    {'productName': 'Product 13', 'productPrice': '20'},
-    {'productName': 'Product 14', 'productPrice': '30'},
-    {'productName': 'Product 15', 'productPrice': '35'}
+    {'productName': 'Product 1', 'productPrice': '10.00'},
+    {'productName': 'Product 2', 'productPrice': '25.00'},
+    {'productName': 'Product 3', 'productPrice': '15.00'},
+    {'productName': 'Product 4', 'productPrice': '20.00'},
+    {'productName': 'Product 5', 'productPrice': '22.00'},
+    {'productName': 'Product 6', 'productPrice': '18.00'},
+    {'productName': 'Product 7', 'productPrice': '25.00'},
+    {'productName': 'Product 8', 'productPrice': '30.00'},
+    {'productName': 'Product 9', 'productPrice': '40.00'},
+    {'productName': 'Product 10', 'productPrice': '35.00'},
+    {'productName': 'Product 11', 'productPrice': '15.00'},
+    {'productName': 'Product 12', 'productPrice': '15.00'},
+    {'productName': 'Product 13', 'productPrice': '20.00'},
+    {'productName': 'Product 14', 'productPrice': '30.00'},
+    {'productName': 'Product 15', 'productPrice': '35.00'}
   ];
 
   List<int> counters = [];

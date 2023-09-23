@@ -101,10 +101,16 @@ class _ProductListState extends State<ProductList> {
           }),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          int totalCounter =
-              counters.reduce((value, element) => value + element);
-          Navigator.push(context,
-              MaterialPageRoute(builder: (_) => CartPage(totalCart: totalCounter)));
+          List<int> newList = [];
+          for (int i = 0; i < counters.length; i++) {
+            if (counters[i] > 0) {
+              newList.add(i);
+            }
+          }
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (_) => CartPage(totalCart: newList.length)));
         },
         child: Icon(Icons.shopping_cart_checkout),
       ),
